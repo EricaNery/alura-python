@@ -1,5 +1,5 @@
 print("***********************************")
-print("Bem vindo ao jogo de adivinhação!")
+print("Bem vindo ao jogo de adivinhação com while!")
 print("***********************************")
 
 numero_secreto = 37
@@ -25,6 +25,6 @@ while(rodada <= total_de_tentativas ):
             print("Você errou!:( Seu chute foi maior que o número secreto.")
         elif(menor):
             print("Você errou!:( Seu chute foi menor que o número secreto.")
-
+    # incrementando
     rodada = rodada + 1
 print("Fim do jogo.")
