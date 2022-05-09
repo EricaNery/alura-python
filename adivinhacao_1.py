@@ -1,8 +1,11 @@
+import random
+
 print("***********************************")
 print("Bem vindo ao jogo de adivinhação com laço for!")
 print("***********************************")
 
-numero_secreto = 37
+numero_secreto = random.randrange(1,101,2)
+#numero_secreto = round(random.random() * 100)
 total_de_tentativas = 3
 
 #laço de repetição: enquanto ainda há tentativas
