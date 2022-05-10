@@ -5,7 +5,6 @@ print("Jogo de adivinhação com níveis!")
 print("*******************************")
 
 numero_secreto = random.randrange(1,101)
-
 total_de_tentativas = 3
 
 print("Qual nível de dificuldade?")
