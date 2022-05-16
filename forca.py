@@ -1,5 +1,4 @@
 def jogar():
-
     #todo o código identado faz parte da função
 
     print("*******************************")
@@ -7,3 +6,6 @@ def jogar():
     print("*******************************")
 
     print("Fim do jogo")
+
+if (__name__ == "__main__"):
+    jogar()
